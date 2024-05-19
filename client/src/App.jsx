@@ -1,9 +1,16 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className='h-[100vh] w-[100vw] bg-black ' >
-    <h1 className='bg-black text-white ' > HI MOM </h1>
+    <div className=' flex overflow-hidden bg-primary ' >
+      <Navbar />
+      <div className='ml-[5vw] bg-black  ' >
+        <Hero />
+
+      </div>
+
     </div>
   )
 }
