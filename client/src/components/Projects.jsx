@@ -1,18 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import icon from '../assets/icon.svg'
 import Spline from '@splinetool/react-spline';
+import AOS from 'aos';
 
 function Projects() {
+
+    useEffect(() => {
+        // Initialize AOS when the component mounts
+        AOS.init({
+          duration: 5000, // Animation duration in milliseconds
+          once: false, // Only animate once
+        });
+      }, []);
+
     return (
-        <>
+        <div className='' >
             
-            <div className='lg:text-[8vh]  text-[4vh] px-20 h-[40vh]  flex items-center text-gray-500 font-serif ' id='project' >
+            <div className='lg:text-[8vh]  text-[4vh] px-20 h-[20vh] pb-10  flex items-center text-gray-500 font-serif ' id='project' >
                 <div className="flex items-center  "> <div className='w-[30vw]  border-2 border-gray-500' > </div>  </div>
                 <div>&nbsp; • &nbsp; Projects &nbsp; • &nbsp;</div>
                 <div className="flex items-center  "> <div className='w-[30vw]  border-2 border-gray-500' > </div>  </div>
             </div>
             <div className="w-screen flex flex-col gap-[15vh] ">
-            <div className="w-screen h-[70vh]  flex items-center ">
+            <div data-aos="fade-out" className="w-screen h-[70vh]  flex items-center ">
                 <div className='w-[50vw] h-[35vh]  flex flex-col items-start '>
                     <div className="w-[50vw] h-[5vh] pl-20 items-center  flex gap-5 ">
                         <img className='h-[5vh]  ' src={icon} alt="" />
@@ -38,7 +48,7 @@ function Projects() {
                 
                 </div>
             </div>
-            <div className="w-screen h-[70vh]  flex items-center ">
+            <div data-aos="fade-out" className="w-screen h-[70vh]  flex items-center ">
             <div className="w-[50vw] h-[70vh]   flex justify-center items-center drop-shadow-[10px_50px_55px_rgba(0,0,0,0.5)] ">
                     <div className='  h-[70vh] w-[50vw]  flex  ' >
                 <Spline className=' ' style={{
@@ -65,7 +75,7 @@ function Projects() {
                 </div>
                
             </div>
-            <div className="w-screen h-[70vh]  flex items-center ">
+            <div data-aos="fade-out" className="w-screen h-[70vh]  flex items-center ">
                 <div className='w-[50vw] h-[35vh]  flex flex-col items-start '>
                     <div className="w-[50vw] h-[5vh] pl-20 items-center  flex gap-5 ">
                         <img className='h-[5vh]  ' src={icon} alt="" />
@@ -92,7 +102,7 @@ function Projects() {
                 </div>
             </div>
             </div>
-        </>
+        </div>
     )
 }
 
