@@ -24,7 +24,7 @@ function Navbar() {
                     <h1>Ham</h1>
                 </button>
             </div>
-            <div className=' font-semibold text-[20px] lg:flex hidden flex-col h-[100vh] w-[5vw]  items-center justify-around  '>
+            <div className=' font-semibold font-serif text-[20px] lg:flex hidden flex-col h-[100vh] w-[5vw]  items-center justify-around  '>
                 <button onClick={() => handleSmoothScroll('home')}><div className=' -rotate-90 hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
                 <button onClick={() => handleSmoothScroll('project')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
                 <button onClick={() => handleSmoothScroll('about')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">About</div></button>
@@ -35,7 +35,7 @@ function Navbar() {
 
             {isDropdownOpen && (
                 <div className='w-full h-[100vh] flex flex-col gap-6 pt-4 bg-primary'>
-                    <div className='font-semibold text-[20px] flex flex-col h-[100vh] w-screen border    items-center justify-around  '>
+                    <div className='font-semibold font-serif text-[20px] flex flex-col h-[100vh] w-screen border    items-center justify-around  '>
                         <button onClick={() => handleSmoothScroll('home')}><div className=' hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
                         <button onClick={() => handleSmoothScroll('project')}><div className=" hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
                         <button onClick={() => handleSmoothScroll('about')}><div className=" hover:line-through decoration-secondary decoration-4  ">About</div></button>
