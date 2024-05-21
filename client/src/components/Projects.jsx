@@ -8,7 +8,7 @@ function Projects() {
     useEffect(() => {
         // Initialize AOS when the component mounts
         AOS.init({
-          duration: 5000, // Animation duration in milliseconds
+          duration: 3000, // Animation duration in milliseconds
           once: false, // Only animate once
         });
       }, []);
