@@ -1,21 +1,22 @@
 import React, { useState, useEffect } from 'react';
+import github from '../assets/github.svg'
 
 function Navbar() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
     const toggleDropdown = () => {
         setDropdownOpen(!isDropdownOpen);
     };
-    
+
     const handleSmoothScroll = (elementId) => {
         const targetElement = document.getElementById(elementId);
         if (targetElement) {
-          const { top } = targetElement.getBoundingClientRect();
-          window.scrollTo({
-            top: top + window.scrollY,
-            behavior: 'smooth',
-          });
+            const { top } = targetElement.getBoundingClientRect();
+            window.scrollTo({
+                top: top + window.scrollY,
+                behavior: 'smooth',
+            });
         }
-      };
+    };
 
     return (
         <div className=' fixed ' >
@@ -24,11 +25,18 @@ function Navbar() {
                     <h1>Ham</h1>
                 </button>
             </div>
-            <div className=' font-semibold font-serif text-[20px] lg:flex hidden flex-col h-[100vh] w-[5vw]  items-center justify-around  '>
-                <button onClick={() => handleSmoothScroll('home')}><div className=' -rotate-90 hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
-                <button onClick={() => handleSmoothScroll('project')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
-                <button onClick={() => handleSmoothScroll('about')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">About</div></button>
-                <button onClick={() => handleSmoothScroll('')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Contact</div></button>
+            <div className=" flex flex-col gap-10 justify-center h-[100vh] ">
+                <div className=' font-semibold font-serif text-[20px] lg:flex hidden flex-col gap-[18vh] w-[5vw]  items-center   '>
+                    <button onClick={() => handleSmoothScroll('home')}><div className=' -rotate-90 hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
+                    <button onClick={() => handleSmoothScroll('project')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
+                    <button onClick={() => handleSmoothScroll('about')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">About</div></button>
+                    <button onClick={() => handleSmoothScroll('')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Contact</div></button>
+                </div>
+                <div className="w-[100%] pt-10 flex justify-center items-center  ">
+                    <a href="https://github.com/ayushbhavsar21"
+                        target="_blank"
+                        rel="noopener noreferrer"><img className='w-[3vw] hover:scale-110  ' src={github} alt="" /></a>
+                </div>
             </div>
 
 
