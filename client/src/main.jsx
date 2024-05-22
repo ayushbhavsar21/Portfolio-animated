@@ -5,6 +5,7 @@ import './index.css'
 // Import AOS and its styles
 import AOS from 'aos';
 import '../node_modules/aos/dist/aos.css';
+// import Background from './components/Background.jsx';
 
 
 

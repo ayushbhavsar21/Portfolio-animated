@@ -9,7 +9,7 @@ function About() {
         // Initialize AOS when the component mounts
         AOS.init({
           duration: 2000, // Animation duration in milliseconds
-          once: false, // Only animate once
+          once: true, // Only animate once
         });
       }, []);
 
