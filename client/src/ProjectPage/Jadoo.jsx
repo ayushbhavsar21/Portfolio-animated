@@ -12,6 +12,7 @@ import deewakar from '../assets/deewakar.jpeg'
 import avi from '../assets/avi.jpeg'
 import satya from '../assets/satya.jpeg'
 import ayush from '../assets/ayush.jpeg'
+import astitva from '../assets/astitva.jpeg'
 import team from '../assets/Teamphoto.jpg'
 
 function Jadoo() {
@@ -208,7 +209,7 @@ function Jadoo() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src='https://media.licdn.com/dms/image/D4D03AQExQGoIHPqetg/profile-displayphoto-shrink_400_400/0/1671552412275?e=1722470400&v=beta&t=dDCUCgjSyoaOmMCArA1LHy6lH0AaMrMKcknYgw34s80' />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={astitva} />
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Astitva Maurya</h2>
                                             <h3 className="text-gray-500 mb-3">Frontend Developer</h3>

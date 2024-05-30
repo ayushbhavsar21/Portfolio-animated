@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import bg from '../assets/bg.jpg'
-import pic1 from '../assets/hazedefy-pic1.png'
-import pic2 from '../assets/hazedefy-pic2.png'
+// import pic1 from '../assets/hazedefy-pic1.png'
+// import pic2 from '../assets/hazedefy-pic2.png'
 import Footer from '../components/Footer'
 import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
@@ -24,23 +24,23 @@ function Guruji() {
                     <div className="w-screen h-[100vh]  flex items-center ">
                         <div className='w-[50vw]  flex flex-col items-start '>
                             <div className="w-[50vw] pl-20 pt-2  flex flex-col  gap-5 ">
-                                <div className="text-[5vh] font-semibold font-serif ">Hazedefy: See Clearly Through Any Haze </div>
-                                <div className="text-gray-500 text-[3vh] font-medium "> Hazedefy is a cutting-edge Dehaze as a Service platform that uses advanced algorithms to remove haze, fog, and other obstacles from images and videos in real-time.  This improves clarity and unlocks new possibilities in areas like transportation, surveillance, and computer vision.
+                                <div className="text-[5vh] font-semibold font-serif ">Guruji: Your Personalized Path to Mastery</div>
+                                <div className="text-gray-500 text-[3vh] font-medium "> Bridge the gap to excellence with Guruji, the innovative mentorship platform connecting you with industry leaders across diverse fields. Our cutting-edge platform facilitates live, one-on-one interactive sessions, empowering you to learn from the best and unlock your full potential.
                                 </div>
-                                <a className='h-[7vh] w-[15vw]  hover:scale-105  text-gray-500 text-[3vh] font-medium  hover:text-secondary flex justify-center items-center  ' href="https://hazedefy.netlify.app/">
+                                <a className='h-[7vh] w-[15vw]  hover:scale-105  text-gray-500 text-[3vh] font-medium  hover:text-secondary flex justify-center items-center  ' href="https://guru-ji.netlify.app/">
                                     <div className=" ">View Website &nbsp; --&gt; </div>
-                                </a><a className='h-[7vh] w-[15vw]  hover:scale-105   text-gray-500 text-[3vh] font-medium  hover:text-secondary flex justify-center items-center  ' href="https://github.com/ayushbhavsar21/Hazedefy">
+                                </a><a className='h-[7vh] w-[15vw]  hover:scale-105   text-gray-500 text-[3vh] font-medium  hover:text-secondary flex justify-center items-center  ' href="https://github.com/ayushbhavsar21/rubix24_Visionaries-United">
                                     <div className=" ">Github Repo &nbsp; --&gt; </div>
                                 </a>
 
                             </div>
                         </div>
                         <div className="w-[50vw]  pt-2 gap-7 text-gray-500 text-[3vh] font-medium   flex flex-col items-center justify-center  ">
-                            <div className="border-b-2 w-[30vw] border-gray-500 ">Deep Learning</div>
+                            <div className="border-b-2 w-[30vw] border-gray-500 ">Live Interactive Classroom</div>
                             <div className="border-b-2 w-[30vw] border-gray-500 ">Frontend Development</div>
                             <div className="border-b-2 w-[30vw] border-gray-500 ">Backend Development</div>
-                            <div className="border-b-2 w-[30vw] border-gray-500 ">OpenCV</div>
-                            <div className="border-b-2 w-[30vw] border-gray-500 ">Python-Flask</div>
+                            <div className="border-b-2 w-[30vw] border-gray-500 ">Chatbot</div>
+                            <div className="border-b-2 w-[30vw] border-gray-500 ">UI/UX Design</div>
 
 
                         </div>
@@ -48,8 +48,8 @@ function Guruji() {
 
                     {/* Images  */}
                     <div className="w-screen flex flex-col gap-10 items-center justify-center ">
-                        <img className='w-[70vw] drop-shadow-[10px_50px_55px_rgba(0,0,0,0.5)]' src={pic1} alt="" />
-                        <img className='w-[70vw] drop-shadow-[10px_50px_55px_rgba(0,0,0,0.5)] ' src={pic2} alt="" />
+                        <img className='w-[70vw] drop-shadow-[10px_50px_55px_rgba(0,0,0,0.5)]' src='https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F870790376a9544d888f76cd3c3dfd667%2Fprojects%2F670d985d16b74015944fa502e1352990%2Ffbfcf11d-fb8d-482d-917e-aad61177e3a0.jpeg&w=1440&q=75' alt="" />
+                        <img className='w-[70vw] drop-shadow-[10px_50px_55px_rgba(0,0,0,0.5)] ' src='https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F870790376a9544d888f76cd3c3dfd667%2Fprojects%2F670d985d16b74015944fa502e1352990%2F7e641cd7-fe70-45b9-ae00-d022ea07db72.jpeg&w=1440&q=75' alt="" />
 
                     </div>
 
@@ -58,13 +58,15 @@ function Guruji() {
                     <div className='w-screen pt-[10vh]  flex flex-col items-start '>
                         <div className=" pl-20 pt-2  flex flex-col pr-[8vw] gap-5 ">
                             <div className="text-[4vh] font-semibold font-serif ">Key Features:</div>
-                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Image Dehaze:</div> The platform can process static images, removing haze and enhancing details to produce clear and vibrant visuals.
+                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Live Interactive Classes:</div> Guruji offers a seamless live class experience, allowing learners to engage in real-time with mentors. This feature supports a range of interactive tools, including video, audio, and real-time screen sharing, ensuring an immersive learning environment.
                             </div>
-                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Video Dehaze:</div> Hazedefy extends its capabilities to video content, allowing for real-time dehazing of moving images, crucial for applications such as surveillance, monitoring, and analysis.
+                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Personalized Mentorship:</div>  Understanding the unique needs of each learner, Guruji enables personalized mentorship sessions. Users can select mentors based on their expertise, availability, and ratings, ensuring a match that aligns with their learning objectives.
                             </div>
-                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Real-time Dehaze: </div> A standout feature of the platform is its ability to dehaze visual data in real-time, making it suitable for applications that require instant clarity, such as live feeds from cameras and drones.
+                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• In-Class Chat Functionality: </div>  To enhance the learning experience, Guruji integrates a live chat feature within each class. This allows for instant doubt clearing, real-time discussions, and enhanced interaction between the mentor and the mentee.
                             </div>
-                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Interactive UI and Responsive Design: </div> Hazedefy boasts a cutting-edge user interface that is both visually appealing and highly intuitive. The responsive design ensures that users have a seamless experience across all devices, whether accessing the platform on a desktop, tablet, or smartphone.
+                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• AI-Powered Chatbot:  </div> At the heart of Guruji is an advanced AI chatbot designed to assist users around the clock. Whether it's navigating the platform, finding the right mentor, or getting quick answers to common questions, the AI chatbot ensures a smooth user experience.
+                            </div>
+                            <div className="text-gray-500 text-[3vh] font-medium  "> <div className="font-bold text-black ">• Interactive UI and Responsive Design:  </div> Guruji boasts a cutting-edge user interface that is both visually appealing and highly intuitive. The responsive design ensures that users have a seamless experience across all devices, whether accessing the platform on a desktop, tablet, or smartphone.
                             </div>
 
 
@@ -73,7 +75,7 @@ function Guruji() {
 
                     {/* Use Cases */}
 
-                    <div class="w-screen pt-[10vh] flex flex-col items-start">
+                    {/* <div class="w-screen pt-[10vh] flex flex-col items-start">
                         <div class="pl-20 pt-2 flex flex-col pr-[8vw] gap-5">
 
 
@@ -110,7 +112,7 @@ function Guruji() {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
 
 
                     {/* team */}
