@@ -67,7 +67,7 @@ function Projects() {
                     <div className="w-[50vw] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="text-[5vh] font-semibold font-serif ">Jadoo </div>
                         <div className="text-gray-500 text-[3vh] font-medium ">A Housing website with AR/VR view of rooms for better understanding of property... </div>
-                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="">
+                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/jadoo">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 
@@ -84,7 +84,7 @@ function Projects() {
                     <div className="w-[50vw] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="text-[5vh] font-semibold font-serif ">GuriJi </div>
                         <div className="text-gray-500 text-[3vh] font-medium "> A platform to help educators and students in better online education... </div>
-                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="">
+                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/guruji">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 

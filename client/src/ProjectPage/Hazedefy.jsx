@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import bg from '../assets/bg.jpg'
-import pic1 from '../assets/pic1.png'
-import pic2 from '../assets/pic2.png'
+import pic1 from '../assets/hazedefy-pic1.png'
+import pic2 from '../assets/hazedefy-pic2.png'
 import Footer from '../components/Footer'
 import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
-import team1 from '../assets/deewakar.jpeg'
-import team2 from '../assets/avi.jpeg'
-import team3 from '../assets/satya.jpeg'
-import team4 from '../assets/ayush.jpeg'
+import deewakar from '../assets/deewakar.jpeg'
+import avi from '../assets/avi.jpeg'
+import satya from '../assets/satya.jpeg'
+import ayush from '../assets/ayush.jpeg'
 
 function Hazedefy() {
     return (
@@ -126,7 +126,7 @@ function Hazedefy() {
                             <div className="flex flex-wrap w-[90%] ">
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={team4} />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={ayush} />
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Ayush Bhavsar</h2>
                                             <h3 className="text-gray-500 mb-3">Frontend and AI-ML Developer</h3>
@@ -146,7 +146,7 @@ function Hazedefy() {
                                 </div>
                                 <div className="px-4  lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={team1} />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={deewakar} />
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">B Deewakar Rao</h2>
                                             <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
@@ -165,7 +165,7 @@ function Hazedefy() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={team2} />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={avi} />
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Aviral Patel</h2>
                                             <h3 className="text-gray-500 mb-3">Full Stack Developer</h3>
@@ -184,7 +184,7 @@ function Hazedefy() {
                                 </div>
                                 <div className="p-4 lg:w-1/2">
                                     <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
-                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={team3} />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src={satya} />
                                         <div className="flex-grow sm:pl-8">
                                             <h2 className="title-font font-medium text-lg text-gray-900">Satya Prakash Jena</h2>
                                             <h3 className="text-gray-500 mb-3">Blockchain Developer</h3>
