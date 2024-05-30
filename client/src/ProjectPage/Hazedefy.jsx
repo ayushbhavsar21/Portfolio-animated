@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import bg from '../assets/bg.jpg'
+import bg from '../assets/bg-leaves.svg'
 import pic1 from '../assets/pic1.png'
 import pic2 from '../assets/pic2.png'
 import Footer from '../components/Footer'
@@ -13,7 +13,7 @@ import team4 from '../assets/ayush.jpeg'
 
 function Hazedefy() {
     return (
-        <div className="" style={{ backgroundImage: `url(${bg})` }}>
+        <div className=" " style={{ backgroundImage: `url(${bg})` ,backgroundAttachment: `fixed` , backgroundRepeat: `no-repeat`,backgroundPosition: `center` ,backgroundSize: `cover` }}>
             <div className=' flex overflow-x-hidden  py-5 bg-[#f2f2f2e6] bg-cover bg-center  '   >
                 <Navbar />
                 {/* Everything inside this div for navbar alignment */}
