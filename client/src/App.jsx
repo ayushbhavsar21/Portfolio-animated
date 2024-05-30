@@ -1,11 +1,16 @@
-import React from 'react'
-import Home from './pages/Home'
+import React from 'react';
+import Home from './pages/Home';
+import Hazedefy from './ProjectPage/Hazedefy'
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div className='  ' >
-      <Home/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element ={<Home/>}/>        
+        <Route path='/hazedefy' element ={<Hazedefy/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

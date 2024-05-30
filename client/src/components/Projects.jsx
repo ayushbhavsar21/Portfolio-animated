@@ -31,7 +31,7 @@ function Projects() {
                     <div className="w-[50vw] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="text-[5vh] font-semibold font-serif ">Hazedefy </div>
                         <div className="text-gray-500 text-[3vh] font-medium "> A Dehaze as Service platfrom which facilitates images , video and real-time dehazing... </div>
-                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="">
+                        <a className='h-[7vh] w-[15vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/hazedefy">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 

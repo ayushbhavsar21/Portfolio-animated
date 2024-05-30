@@ -25,17 +25,18 @@ function Navbar() {
                     <h1>Ham</h1>
                 </button>
             </div>
-            <div className=" flex flex-col gap-10 justify-center h-[100vh] ">
+            <div className=" flex flex-col gap-10 justify-center h-[100vh] w-[10vw] items-center ">
                 <div className=' font-semibold font-serif text-[20px] lg:flex hidden flex-col gap-[18vh] w-[5vw]  items-center   '>
                     <button onClick={() => handleSmoothScroll('home')}><div className=' -rotate-90 hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
                     <button onClick={() => handleSmoothScroll('project')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
                     <button onClick={() => handleSmoothScroll('about')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">About</div></button>
                     <button onClick={() => handleSmoothScroll('')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Contact</div></button>
                 </div>
-                <div className="w-[100%] pt-10 flex justify-center items-center  ">
+                <div className=" pt-10   ">
                     <a href="https://github.com/ayushbhavsar21"
                         target="_blank"
-                        rel="noopener noreferrer"><img className='w-[3vw] hover:scale-110  ' src={github} alt="" /></a>
+                        rel="noopener noreferrer">
+                            <img className='w-[3vw] hover:scale-110  ' src={github} alt="" /></a>
                 </div>
             </div>
 
