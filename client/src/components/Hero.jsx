@@ -14,20 +14,22 @@ function Hero() {
             {/* <div className="absolute right-0 top-0 w-[95vw] h-[100vh] border  border-black ">
             <Spline scene="https://prod.spline.design/FNor8kSmrBBUH7C0/scene.splinecode" />
             </div> */}
-            <div className="flex flex-col  items-start gap-4 lg:w-[44vw] w-[70vw] z-[10] ">
+            <div className="flex flex-col  items-start lg:gap-4 gap-8 lg:w-[44vw] w-[70vw] z-[10] ">
                 <div className='lg:text-[8vh]   text-[5vh] font-serif font-semibold  flex  items-center text-gray-500  lg:h-[8vh] h-[5vh] ' >
                     <div className="rev-block">
                         <span> Ayush Bhavsar &nbsp;</span>
                     </div>
-                    <div className="flex items-center  ">
-                        <div className='lg:w-[12vw] w-[8vw]  border-2 border-gray-500' >
+                    <div className="lg:flex hidden items-center  ">
+                        <div className='lg:w-[12vw]  border-2 border-gray-500' >
                         </div>
                     </div>
                 </div>
-                <div className="lg:text-[8vh]  text-[5vh] font-semibold flex ">Programmer   </div>
+                <div className="lg:text-[8vh]  text-[5vh] font-semibold flex flex-col ">Programmer  
                 <div className="flex ">
                     <div className='lg:text-[8vh]  text-[5vh] font-normal  text-gray-500 ' > & &nbsp;</div>
-                    <div className='lg:text-[8vh]  text-[4vh] font-semibold flex ' ><TextCarousel texts={texts} interval={2000} />  </div></div>
+                    <div className='lg:text-[8vh]  text-[4vh] font-semibold flex ' ><TextCarousel texts={texts} interval={2000} />  </div>
+                </div>
+                </div>
             </div>
 
         </div>

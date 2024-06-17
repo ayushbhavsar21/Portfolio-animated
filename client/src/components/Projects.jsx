@@ -31,7 +31,7 @@ function Projects() {
                     <div className="lg:w-[50vw] w-[100%] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="lg:text-[5vh] text-[4vh] font-semibold font-serif ">Hazedefy </div>
                         <div className="text-gray-500 lg:text-[3vh] text-[2.5vh] font-medium "> A Dehaze as Service platfrom which facilitates images , video and real-time dehazing... </div>
-                        <a className='h-[7vh] lg:w-[15vw] w-[35vw] bg-black rounded-br-3xl hover:scale-105 sm:text-[3vh] text-[2.5vh]  font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/hazedefy">
+                        <a className='h-[7vh] lg:w-[15vw] w-[38vw] bg-black rounded-br-3xl hover:scale-105 sm:text-[3vh] text-[2.5vh]  font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/hazedefy">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 
@@ -67,7 +67,7 @@ function Projects() {
                     <div className="lg:w-[50vw] w-[100%] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="lg:text-[5vh] text-[4vh] font-semibold font-serif ">Jadoo </div>
                         <div className="text-gray-500 lg:text-[3vh] text-[2.5vh] font-medium ">A Housing website with AR/VR view of rooms for better understanding of property... </div>
-                        <a className='h-[7vh] lg:w-[15vw] w-[35vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/jadoo">
+                        <a className='h-[7vh] lg:w-[15vw] w-[38vw] bg-black rounded-br-3xl hover:scale-105 sm:text-[3vh] text-[2.5vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/jadoo">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 
@@ -84,7 +84,7 @@ function Projects() {
                     <div className="lg:w-[50vw] w-[100%] h-[30vh] pl-20 pt-2  flex flex-col  gap-5 ">
                         <div className="lg:text-[5vh] text-[4vh] font-semibold font-serif ">GuriJi </div>
                         <div className="text-gray-500 lg:text-[3vh] text-[2.5vh] font-medium "> A platform to help educators and students in better online education... </div>
-                        <a className='h-[7vh] lg:w-[15vw] w-[35vw] bg-black rounded-br-3xl hover:scale-105 text-[3vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/guruji">
+                        <a className='h-[7vh] lg:w-[15vw] w-[38vw] bg-black rounded-br-3xl hover:scale-105 sm:text-[3vh] text-[2.5vh] font-serif text-white hover:text-secondary flex justify-center items-center  ' href="/guruji">
                             <div className=" ">View project &nbsp;  &gt; </div>
                         </a>
 
