@@ -9,7 +9,7 @@ function Home() {
   return (
     <div className=' flex overflow-x-hidden bg-primary py-5 ' >
       <Navbar />
-      <div className='ml-[5vw]   ' >
+      <div className='  lg:ml-[5vw]   ' >
         <Hero />
         <Projects/>
         <About/>

@@ -20,12 +20,12 @@ function Navbar() {
 
     return (
         <div className=' fixed ' >
-            <div className='lg:hidden pt-2  '>
+            <div className='lg:hidden hidden pt-2  '>
                 <button onClick={toggleDropdown}>
                     <h1>Ham</h1>
                 </button>
             </div>
-            <div className=" flex flex-col gap-10 justify-center h-[100vh] w-[10vw] items-center ">
+            <div className=" lg:flex hidden flex-col gap-10 justify-center h-[100vh] w-[10vw] items-center ">
                 <div className=' font-semibold font-serif text-[20px] lg:flex hidden flex-col gap-[18vh] w-[5vw]  items-center   '>
                     <button onClick={() => handleSmoothScroll('home')}><div className=' -rotate-90 hover:line-through decoration-secondary decoration-4  ' >Home</div></button>
                     <button onClick={() => handleSmoothScroll('project')}><div className=" -rotate-90 hover:line-through decoration-secondary decoration-4  ">Projects</div></button>
